@@ -1,0 +1,77 @@
+/*
+Theme Name:   Divi Child
+Theme URI:    http://rexydesign.com/
+Description:  Divi Child Theme
+Author:       Chris Luke
+Author URI:   http://rexydesign.com/
+Template:     Divi
+Version:      1.0.0
+*/
+
+@import url('../Divi/style.css');
+
+/* increases size of slider text */
+	.et_pb_slide_description h2 {
+	font-size: 90px;
+}
+
+.et_pb_slide_content {
+	font-size: 30px;
+	font-weight: 200;
+}
+
+/* adds border to two images on home page */
+.imageborder {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #666666;
+}
+
+/* adds background to home page text service text area */
+.homeservice {
+	background: rgba(0, 0, 0, .5);
+}
+
+
+/* hides list item on social media footer */
+#footer-widgets .footer-widget .et_social_icons_container li:before{ 
+	border: none; 
+}
+	
+#monarchwidget-3 li {
+	padding: 0 0 0px 0px !important;
+}
+
+/* change color of menu in mobile */
+#main-header .et_mobile_menu {
+	background-color: #ffffff !important;
+}
+
+/* remove gallery lightbox */
+	.et_pb_gallery_item .et_pb_gallery_image img {
+	pointer-events: none;
+}
+
+/* display no image on about us widget in footer */
+img#about-image {
+	display: none;
+}
+
+/* DISABLED allow for only 4 projects on home page 
+
+.et_pb_portfolio_items.clearfix.columns-5{
+	margin-left:10%;
+}
+*/
+
+/* DISABLED show title on home page portfolio module 
+.et_pb_fullwidth_portfolio .et_pb_portfolio_image h3 {
+	position: absolute;
+	top: 0;
+	color:white;
+}
+
+.et_pb_fullwidth_portfolio .et_pb_portfolio_image:hover .et_overlay {
+	opacity: 0.1;
+}
+*/
